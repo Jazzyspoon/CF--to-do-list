@@ -1,36 +1,50 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+/* s */
 
 body {
-  font: normal normal 13px/16px "Open Sans", sans-serif;
-  background: #dfdfdf;
-  font-size: large;
+  font-family: "Source Code Pro", monospace;
+  font: normal normal 13px/16px "Source Code Pro", sans-serif;
+  background: #d4d6be;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h6 {
+  text-align: center;
+  font-weight: 600;
 }
 
 .container {
   padding: 20px;
+  text-align: center;
   width: 300px;
-  margin: 0 auto;
+  margin: auto;
   margin-top: 40px;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 5px;
 }
 
 form {
-  display: inline-block;
+  display: inline-flex;
+  border-radius: 5px;
 }
 
 input {
-  padding: 4px 15px 4px 5px;
+  padding: 10px 20px 6px 10px;
+  font-size: medium;
+  width: auto;
+  text-align: center;
+  border-radius: 5px;
 }
 
 #button {
   display: inline-block;
-  background-color: #99b3fc;
-  color: #ffffff;
   border-radius: 5px;
-  text-align: center;
   margin-top: 2px;
   padding: 5px 15px;
+  margin: 10px;
 }
 
 #button:hover {
@@ -38,8 +52,13 @@ input {
   opacity: 0.8;
 }
 
+li {
+  padding-top: 15px;
+  height: 30px;
+}
+
 ol {
-  padding-left: 20px;
+  font-size: medium;
 }
 
 ol li {
@@ -70,4 +89,3 @@ li > crossOutButton {
   color: #025f70;
   font-weight: 800;
 }
-
